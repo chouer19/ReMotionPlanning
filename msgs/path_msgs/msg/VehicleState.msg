@@ -1,0 +1,13 @@
+geometry_msgs/Point point
+geometry_msgs/Vector3 acceleration
+geometry_msgs/Vector3 orientation
+geometry_msgs/Vector3 rotation
+
+float32 forward_speed
+float32 collision_vehicles
+float32 collision_pedestrians
+float32 collision_other
+float32 intersection_otherlane
+float32 intersection_offroad
+
+carla_msgs/VehicleCmd control
